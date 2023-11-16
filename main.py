@@ -264,7 +264,7 @@ class TaskManagerApp(QMainWindow):
     # Открытие заметки
     @staticmethod
     def notes():
-        os.system('word.exe')
+        os.system('Заметки.exe')
 
 
 def main():
@@ -275,3 +275,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
